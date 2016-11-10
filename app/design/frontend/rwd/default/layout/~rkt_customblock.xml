@@ -1,0 +1,10 @@
+<layout>
+    <rkt_customblock_index_index>
+        <reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+        <reference name="content">
+            <block type="rkt_customblock/helloworld" name="myblock.helloworld" template="rkt_customblock/helloworld.phtml" />
+        </reference>
+    </rkt_customblock_index_index>
+</layout>
