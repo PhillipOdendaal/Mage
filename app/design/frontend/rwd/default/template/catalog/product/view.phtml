@@ -36,6 +36,7 @@
 <script type="text/javascript">
     var optionsPrice = new Product.OptionsPrice(<?php echo $this->getJsonConfig() ?>);
 </script>
+
 <div id="messages_product_view"><?php echo $this->getMessagesBlock()->toHtml() ?></div>
 <div class="product-view">
     <div class="product-essential">
@@ -119,6 +120,7 @@
                 <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
             <?php endif;?>
         </form>
+
         <script type="text/javascript">
         //<![CDATA[
             var productAddToCartForm = new VarienForm('product_addtocart_form');
@@ -184,8 +186,10 @@
             </dl>
         <?php endif; ?>
     </div>
-
     <?php echo $this->getChildHtml('upsell_products') ?>
     <?php echo $this->getChildHtml('product_additional_data') ?>
-
+    <hr/>
+    <h3>Twitter Timeline</h3>
+    <?php echo $this->getChildHtml('product.info.twitter.timeline') ?>
+    <hr/>
 </div>

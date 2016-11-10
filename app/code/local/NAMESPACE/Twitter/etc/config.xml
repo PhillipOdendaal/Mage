@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <NAMESPACE_Twitter>
+            <version>0.0.1</version>
+        </NAMESPACE_Twitter>
+    </modules>
+    <global>
+        <blocks>
+            <twitter>
+                <class>NAMESPACE_Twitter_Block</class>
+            </twitter>
+        </blocks>
+    </global>
+</config>

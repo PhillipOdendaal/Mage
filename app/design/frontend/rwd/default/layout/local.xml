@@ -1,0 +1,7 @@
+<!-- let's add a block to our layout that defines
+     where to inject our twitter widget -->
+<catalog_product_view>
+    <reference name='product.info'>
+        <block type='twitter/timeline' name='product.info.twitter.timeline' as='product.view.twitter.timeline' template='catalog/product/view/twitter/timeline.phtml' />
+    </reference>
+</catalog_product_view>
